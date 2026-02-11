@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f2f4f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;   /* changed from height to min-height */
+}
+
+/* Main Card */
+.container {
+  background: white;
+  width: 400px;
+  max-width: 95%;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+/* Inputs */
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+/* Buttons */
+button {
+  padding: 10px;
+  background: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+/* Header Section */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Todo Input Section */
+.todo-input {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.todo-input input {
+  flex: 1;   /* take remaining space */
+  margin: 0; /* remove extra vertical margin */
+}
+
+.todo-input button {
+  width: auto;
+  padding: 10px 15px;
+}
+
+/* Todo List */
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 15px;
+}
+
+li {
+  background: #e9ecef;
+  padding: 8px 12px;
+  margin-top: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 4px;
+}

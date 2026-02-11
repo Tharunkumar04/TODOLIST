@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="../Styles/style.css">
+</head>
+<body>
+
+<div class="container">
+  <div class="header">
+    <h2 id="welcomeText"></h2>
+    <button onclick="logout()">Logout</button>
+  </div>
+
+  <div class="todo-input">
+    <input type="text" id="todoInput" placeholder="Enter new todo">
+    <button onclick="addTodo()">Add</button>
+  </div>
+
+  <ul id="todoList"></ul>
+</div>
+
+<script src="../server/dashboard.js"></script>
+</body>
+</html>
